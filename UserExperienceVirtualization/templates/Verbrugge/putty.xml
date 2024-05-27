@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2012/SettingsLocationTemplate">
+  <Name>PuTTY</Name>
+  <ID>PuTTY</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>Matthew C. Evans</Name>
+    <Email>evans@kraftkennedy.com</Email>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>putty.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <Registry>
+      <Path>Software\SimonTatham\PuTTY\Sessions</Path>
+    </Registry>
+  </Settings>
+</SettingsLocationTemplate>

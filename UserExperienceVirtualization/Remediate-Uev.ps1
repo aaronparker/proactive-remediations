@@ -62,7 +62,7 @@
 [Diagnostics.CodeAnalysis.SuppressMessageAttribute("PSAvoidUsingWriteHost", "", Justification = "Output required by Proactive Remediations.")]
 param (
     [Parameter(Mandatory = $false)]
-    [System.String] $Uri = "https://stpydeviceause.blob.core.windows.net/uev/?comp=list",
+    [System.String] $Uri = "https://videploymentstorage.blob.core.windows.net/uev/?comp=list",
 
     [Parameter(Mandatory = $false)]
     [System.String] $CustomTemplatesPath = "$env:ProgramData\Microsoft\UEV\CustomTemplates"

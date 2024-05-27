@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>Microsoft Office 2016 Backup (64-bit)</Name>
+  <ID>MicrosoftOffice2016BackupWin64</ID>
+  <FixedProfile>Backup</FixedProfile>
+  <Common>
+    <Name>Common Settings</Name>
+    <ID>common</ID>
+    <Version>1</Version>
+    <Settings>
+      <PreventOverlappingSynchronization>false</PreventOverlappingSynchronization>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\Common\General</Path>
+        <Name>PreferCloudSaveLocations</Name>
+        <Name>Sound</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\Common\Offline\Options</Path>
+        <Name>Location</Name>
+        <Name>UseLocalDrafts</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\Common\Graphics</Path>
+        <Name>DisableHardwareAcceleration</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\Common</Path>
+        <Name>OverridePointerMode</Name>
+      </Registry>
+    </Settings>
+  </Common>
+  <Application>
+    <Name>Microsoft Word 2016 Backup (64-bit)</Name>
+    <ID>Word</ID>
+    <Version>1</Version>
+    <Processes>
+      <Process>
+        <Filename>WINWORD.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\Word\Options</Path>
+        <Name>AllowAutoReadingMode</Name>
+        <Name>NoMargPageView</Name>
+        <Name>AUTOSAVE-PATH</Name>
+        <Name>DOC-PATH</Name>
+        <Name>PersonalTemplates</Name>
+        <Name>ShowBkg</Name>
+        <Name>WrapToWwd</Name>
+        <Name>ShowPicturePlaceholders</Name>
+        <Name>ShowDrawings</Name>
+        <Name>ShowFieldValues</Name>
+        <Name>DraftFont</Name>
+        <Name>UsePrinterFonts</Name>
+        <Name>BackupDuringSave</Name>
+        <Name>MakeLocalCopy</Name>
+        <Name>SoundFeedback</Name>
+        <Name>AnimateScreenMove</Name>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Excel 2016 Backup (64-bit)</Name>
+    <ID>Excel</ID>
+    <Version>1</Version>
+    <Processes>
+      <Process>
+        <Filename>EXCEL.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\Excel\Options</Path>
+        <Name>AutoRecoverPath</Name>
+        <Name>DefaultPath</Name>
+        <Name>PersonalTemplates</Name>
+        <Name>ExcelHighQualityModeForGraphics</Name>
+        <Name>AltStartup</Name>
+        <Name>EnableMTP</Name>
+        <Name>DontSupportUndoForLargePivotTables</Name>
+        <Name>PivotTableUndoRowThousandCount</Name>
+        <Name>DontSupportUndoForLargeDataModels</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\Common\Internet</Path>
+        <Name>ScreenSize</Name>
+        <Name>PixelsPerInch</Name>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Visio 2016 Backup (64-bit)</Name>
+    <ID>Visio</ID>
+    <Version>1</Version>
+    <Processes>
+      <Process>
+        <Filename>VISIO.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\Visio\Application</Path>
+        <Name>PersonalTemplates</Name>
+        <Name>MyShapesPath</Name>
+        <Name>DrawingsPath</Name>
+        <Name>TemplatePath</Name>
+        <Name>StencilPath</Name>
+        <Name>HelpPath</Name>
+        <Name>AddonsPath</Name>
+        <Name>StartUpPath</Name>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft PowerPoint 2016 Backup (64-bit)</Name>
+    <ID>PowerPoint</ID>
+    <Version>1</Version>
+    <Processes>
+      <Process>
+        <Filename>POWERPNT.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\Common</Path>
+        <Name>UI Theme</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\PowerPoint\Options</Path>
+        <Name>PathToAutoRecoveryInfo</Name>
+        <Name>PersonalTemplates</Name>
+        <Name>UseAutoMonSelection</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\PowerPoint\RecentFolderList</Path>
+        <Name>Default</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\PowerPoint\SlideShow</Path>
+        <Name>DisableHardwareAcceleration</Name>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft InfoPath 2016 Backup (64-bit)</Name>
+    <ID>InfoPath</ID>
+    <Version>1</Version>
+    <Processes>
+      <Process>
+        <Filename>INFOPATH.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings />
+  </Application>
+  <Application>
+    <Name>Microsoft Access 2016 Backup (64-bit)</Name>
+    <ID>Access</ID>
+    <Version>1</Version>
+    <Processes>
+      <Process>
+        <Filename>MSACCESS.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\Access\Settings</Path>
+        <Name>Default Database Directory</Name>
+        <Name>Run Permissions</Name>
+        <Name>New Database Theme</Name>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Outlook 2016 Backup (64-bit)</Name>
+    <ID>Outlook</ID>
+    <Version>1</Version>
+    <Processes>
+      <Process>
+        <Filename>OUTLOOK.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\16.0\Outlook\Addins\</Path>
+        <Name>All Add-Ins</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\Outlook\Office Explorer</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Outlook</Path>
+        <FileMask>Outlook.srs</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft SharePoint Designer 2016 Backup (64-bit)</Name>
+    <ID>SharePointDesigner</ID>
+    <Version>1</Version>
+    <Processes>
+      <Process>
+        <Filename>SPDESIGN.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings />
+  </Application>
+  <Application>
+    <Name>Microsoft Project 2016 Backup (64-bit)</Name>
+    <ID>Project</ID>
+    <Version>1</Version>
+    <Processes>
+      <Process>
+        <Filename>WINPROJ.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\MS Project\Options\Save</Path>
+        <Name>DefaultProjectsPath</Name>
+        <Name>PersonalTemplates</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\MS Project\Settings</Path>
+        <Name>CacheSizePerProfile</Name>
+        <Name>CacheLocation</Name>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Publisher 2016 Backup (64-bit)</Name>
+    <ID>Publisher</ID>
+    <Version>1</Version>
+    <Processes>
+      <Process>
+        <Filename>MSPUB.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\Publisher\Preferences</Path>
+        <Name>PersonalTemplates</Name>
+        <Name>WindowSize</Name>
+      </Registry>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\16.0\Publisher\DisabledAlerts</Path>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft OneNote 2016 Backup (64-bit)</Name>
+    <ID>OneNote</ID>
+    <Version>1</Version>
+    <Processes>
+      <Process>
+        <Filename>ONENOTE.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="16" Maximum="16" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\OneNote\Options\Paths</Path>
+        <Name>UnfiledNotesSection</Name>
+        <Name>BackupFolderPath</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\OneNote\Options\Save</Path>
+        <Name>Last Local Notebook Path</Name>
+        <Name>Notebook Root</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\OneNote\General</Path>
+        <Name>CachePath</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\OneNote\Options\OutlookAndWeb</Path>
+        <Name>WebNotesLocation</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\OneNote\Options\Audio</Path>
+        <Name>AudioCaptureDevice</Name>
+        <Name>AudioCapturePin</Name>
+        <Name>AudioCodecFormat</Name>
+        <Name>VideoCaptureDevice</Name>
+        <Name>VideoCaptureProfile</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\OneNote\Options\Pen</Path>
+        <Name>InkPressure</Name>
+        <Name>ShowTabletPCInputPanel</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\16.0\OneNote\Options\Other</Path>
+        <Name>BatteryLife</Name>
+        <Name>Zoom</Name>
+      </Registry>
+    </Settings>
+  </Application>
+</SettingsLocationTemplate>

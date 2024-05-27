@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2012/SettingsLocationTemplate">
+  <Name>IrfanView</Name>
+  <ID>IrfanView</ID>
+  <Version>1</Version>
+  <Processes>
+    <Process>
+      <Filename>i_view32.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">IRFANVIEW</Path>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>

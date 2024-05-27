@@ -129,7 +129,7 @@ if ((Get-ItemProperty -Path "$RegPath\$App" -Name 'ShowInActionCenter' -ErrorAct
 $Scenario = "reminder" # <!-- Possible values are: reminder | short | long -->
 
 # Load Toast Notification text
-$AttributionText = "stealthpuppy Service Desk"
+$AttributionText = "Verbrugge Service Desk"
 $HeaderText = "Duplicate shortcuts removed"
 $TitleText = "Duplicate shortcuts have been removed from your desktop"
 $BodyText1 = "To reduce clutter, these duplicate shortcuts have been removed:"

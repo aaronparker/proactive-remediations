@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Modifying the settings location templates for an application or a 
+Windows setting group provided with Microsoft User Experience Virtualization 
+may cause synchronization for the modified settings to fail. 
+For more information about settings location templates please see 
+the UE-V product documentation.  http://go.microsoft.com/fwlink/?LinkId=260889
+-->
+
+<SettingsLocationTemplate xmlns='http://schemas.microsoft.com/UserExperienceVirtualization/2013/SettingsLocationTemplate'>
+
+  <!-- Accessibility settings (as defined by the Win32 SystemParameterInfo function) -->
+  <Name>Ease of Access Settings</Name>
+  <ID>EaseOfAccessSettings</ID>
+  <LocalizedNames>
+    <Name Locale='en-us'>Ease of Access Settings</Name>
+    <Name Locale='cs-cz'>Nastavení usnadnění přístupu</Name>
+    <Name Locale='da-dk'>Indstillinger for Øget tilgængelighed</Name>
+    <Name Locale='de-de'>Einstellungen zur erleichterten Bedienung</Name>
+    <Name Locale='el-gr'>Ρυθμίσεις διευκόλυνσης πρόσβασης</Name>
+    <Name Locale='es-es'>configuración de accesibilidad</Name>
+    <Name Locale='fi-fi'>helppokäyttötoimintojen asetukset</Name>
+    <Name Locale='fr-fr'>Options d'ergonomie</Name>
+    <Name Locale='hu-hu'>Könnyű kezelési beállítások</Name>
+    <Name Locale='it-it'>Impostazioni di accessibilità</Name>
+    <Name Locale='ja-jp'>簡単操作の設定</Name>
+    <Name Locale='ko-kr'>내게 필요한 옵션 설정</Name>
+    <Name Locale='nb-no'>Hjelpemiddelsenter</Name>
+    <Name Locale='nl-nl'>Toegankelijkheidsinstellingen</Name>
+    <Name Locale='pl-pl'>Ustawienia Ułatwień dostępu</Name>
+    <Name Locale='pt-br'>Configurações de Facilidade de Acesso</Name>
+    <Name Locale='pt-pt'>Definições de Facilidade de Acesso</Name>
+    <Name Locale='ru-ru'>Параметры специальных возможностей</Name>
+    <Name Locale='sk-sk'>Nastavenie zjednodušenia prístupu</Name>
+    <Name Locale='sl-si'>Nastavitve središča za dostopnost</Name>
+    <Name Locale='sv-se'>Hjälpmedelsinställningar</Name>
+    <Name Locale='tr-tr'>Erişim Kolaylığı Ayarları</Name>
+    <Name Locale='zh-cn'>轻松访问设置</Name>
+    <Name Locale='zh-tw'>輕鬆存取設定</Name>
+  </LocalizedNames>  
+  <ManageSuiteOnly>true</ManageSuiteOnly>
+
+  <Common>
+    <Name>Common Settings</Name>
+    <ID>common</ID>
+    <Version>0</Version>
+    <DeferToMSAccount/>
+    <Settings>
+      <PreventOverlappingSynchronization>false</PreventOverlappingSynchronization>
+      <Registry>
+        <Path Recursive="false" DeleteIfNotFound="true">Software\Microsoft\Windows NT\CurrentVersion\Accessibility</Path>
+        <Name>Configuration</Name>
+      </Registry>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Narrator</Path>
+      </Registry>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\ScreenMagnifier</Path>
+      </Registry>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Osk</Path>
+      </Registry>
+    </Settings>
+  </Common>
+
+  <Application>
+    <Name>Shell</Name>
+    <ID>Shell</ID>
+    <Version>0</Version>
+    <DeferToMSAccount/>
+    <Processes>
+      <ShellProcess/>
+    </Processes>
+
+    <Settings>
+      <Asynchronous>true</Asynchronous>
+      <PreventOverlappingSynchronization>false</PreventOverlappingSynchronization>
+      <SystemParameter>AccessTimeout</SystemParameter>
+      <SystemParameter>AudioDescription</SystemParameter>
+      <SystemParameter>ClientAreaAnimation</SystemParameter>
+      <SystemParameter>DisableOverlappedContent</SystemParameter>
+      <SystemParameter>FilterKeys</SystemParameter>
+      <SystemParameter>FocusBorderHeight</SystemParameter>
+      <SystemParameter>FocusBorderWidth</SystemParameter>
+      <SystemParameter>HighContrast</SystemParameter>
+      <SystemParameter>MessageDuration</SystemParameter>
+      <SystemParameter>MouseClickLock</SystemParameter>
+      <SystemParameter>MouseClickLockTime</SystemParameter>
+      <SystemParameter>MouseKeys</SystemParameter>
+      <SystemParameter>MouseSonar</SystemParameter>
+      <SystemParameter>MouseVanish</SystemParameter>
+      <SystemParameter>ScreenReader</SystemParameter>
+      <SystemParameter>ShowSounds</SystemParameter>
+      <SystemParameter>SoundSentry</SystemParameter>
+      <SystemParameter>StickyKeys</SystemParameter>
+      <SystemParameter>ToggleKeys</SystemParameter>
+      <SystemParameter>Beep</SystemParameter>
+      <SystemParameter>BlockSendInputResets</SystemParameter>
+      <SystemParameter>DoubleClickTime</SystemParameter>
+      <SystemParameter>DoubleClkHeight</SystemParameter>
+      <SystemParameter>DoubleClkWidth</SystemParameter>
+      <SystemParameter>KeyboardCues</SystemParameter>
+      <SystemParameter>KeyboardDelay</SystemParameter>
+      <SystemParameter>KeyboardPref</SystemParameter>
+      <SystemParameter>KeyboardSpeed</SystemParameter>
+      <SystemParameter>Mouse</SystemParameter>
+      <SystemParameter>MouseButtonSwap</SystemParameter>
+      <SystemParameter>MouseHoverHeight</SystemParameter>
+      <SystemParameter>MouseHoverTime</SystemParameter>
+      <SystemParameter>MouseHoverWidth</SystemParameter>
+      <SystemParameter>MouseSpeed</SystemParameter>
+      <SystemParameter>MouseTrails</SystemParameter>
+      <SystemParameter>SnapToDefButton</SystemParameter>
+      <SystemParameter>WheelScrollChars</SystemParameter>
+      <SystemParameter>WheelScrollLines</SystemParameter>
+    </Settings>
+  </Application>
+
+  <Application>
+    <Name>ATBroker</Name>
+    <ID>ATBroker</ID>
+    <Version>0</Version>
+    <DeferToMSAccount/>
+    <Processes>
+      <Process>
+        <Filename>ATBroker.exe</Filename>
+      </Process>
+    </Processes>
+    <Settings>
+    </Settings>
+  </Application>
+
+</SettingsLocationTemplate>

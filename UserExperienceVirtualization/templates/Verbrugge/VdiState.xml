@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsLocationTemplate xmlns='http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate'>
+  <Name>VDI State</Name>
+  <ID>VdiState</ID>
+  <Version>0</Version>
+  <FixedProfile>Vdi</FixedProfile>
+  <Processes>
+    <ShellProcess/>
+  </Processes>
+  <Settings>
+    <PreventOverlappingSynchronization>false</PreventOverlappingSynchronization>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">\Microsoft\UEV\%COMPUTERNAME%</Path>
+      <Exclude>
+        <Path Recursive="true">(.*)(Current)(.*)</Path>
+        <FileMask>*</FileMask>
+      </Exclude>
+    </File>
+    <Registry>
+      <Path Recursive="true">Software\Microsoft\UEV\Agent\Runtime\Restore</Path>
+    </Registry>
+  </Settings>
+</SettingsLocationTemplate>

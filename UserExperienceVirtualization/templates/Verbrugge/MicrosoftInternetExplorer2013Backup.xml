@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Modifying the settings location templates for an application or a 
+Windows setting group provided with Microsoft User Experience Virtualization 
+may cause synchronization for the modified settings to fail. 
+For more information about settings location templates please see 
+the UE-V product documentation.  http://go.microsoft.com/fwlink/?LinkId=260889
+-->
+<SettingsLocationTemplate xmlns='http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate'>
+  <Name>Microsoft Internet Explorer Backup</Name>
+  <ID>MicrosoftInternetExplorerBackup</ID>
+  <FixedProfile>Backup</FixedProfile>
+  <Common>
+    <Name>Common Settings</Name>
+    <ID>common</ID>
+    <Version>2</Version>
+    <DeferToMSAccount/>
+    <Settings>
+      <Registry>
+        <Path Recursive="true" DeleteIfNotFound="true">Software\Microsoft\Windows\CurrentVersion\Internet Settings\TemplatePolicies</Path>
+      </Registry>
+    <Registry>
+        <Path Recursive="true" DeleteIfNotFound="true">Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap</Path>
+      </Registry>
+    <Registry>
+        <Path Recursive="true" DeleteIfNotFound="true">Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones</Path>
+      </Registry>
+    </Settings>
+  </Common>
+    
+  <Application>
+    <Name>Internet Explorer 10</Name>
+    <ID>Version10</ID>
+    <Version>2</Version>
+    <DeferToMSAccount/>
+    <Processes>
+      <Process>
+        <Filename>iexplore.exe</Filename>
+        <ProductVersion>
+          <Major Minimum="10" Maximum="10" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="10" Maximum="10" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+    </Settings>
+  </Application>
+
+  <Application>
+    <Name>Internet Explorer 11</Name>
+    <ID>Version11</ID>
+    <Version>2</Version>
+    <DeferToMSAccount/>
+    <Processes>
+      <Process>
+        <Filename>iexplore.exe</Filename>
+        <ProductVersion>
+          <Major Minimum="11" Maximum="11" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="11" Maximum="11" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+    </Settings>
+  </Application>
+
+</SettingsLocationTemplate>

@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>Microsoft Office 2013 Office365 (64-bit)</Name>
+  <ID>MicrosoftOffice2013Office365Win64</ID>
+  <Common>
+    <Name>Common Settings</Name>
+    <ID>common</ID>
+    <Version>1</Version>
+    <DeferToOffice365/>
+    <Settings>
+      <PreventOverlappingSynchronization>false</PreventOverlappingSynchronization>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Custom Dictionaries</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\15.0\Common</Path>
+        <Name>UI Theme</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\UProof</Path>
+        <FileMask>*.DIC</FileMask>
+        <FileMask>CUSTOM.DIC</FileMask>
+      </File>
+    </Settings>
+  </Common>
+  <Application>
+    <Name>Microsoft Word 2013 Office 365 (64-bit)</Name>
+    <ID>Word</ID>
+    <Version>1</Version>
+    <DeferToOffice365/>
+    <Processes>
+      <Process>
+        <Filename>WINWORD.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\15.0\Word\User MRU</Path>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Excel 2013 Office 365 (64-bit)</Name>
+    <ID>Excel</ID>
+    <Version>1</Version>
+    <DeferToOffice365/>
+    <Processes>
+      <Process>
+        <Filename>EXCEL.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\15.0\Excel\User MRU</Path>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Visio 2013 Office 365 (64-bit)</Name>
+    <ID>Visio</ID>
+    <Version>1</Version>
+    <DeferToOffice365/>
+    <Processes>
+      <Process>
+        <Filename>VISIO.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\15.0\Visio\Application</Path>
+        <Name>ZoomOnRoll</Name>
+        <Name>ZoomMode</Name>
+        <Name>DeveloperTools</Name>
+      </Registry>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\15.0\Visio\User MRU</Path>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft PowerPoint 2013 Office 365 (64-bit)</Name>
+    <ID>PowerPoint</ID>
+    <Version>1</Version>
+    <DeferToOffice365/>
+    <Processes>
+      <Process>
+        <Filename>POWERPNT.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\15.0\PowerPoint\User MRU</Path>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft InfoPath 2013 Office 365 (64-bit)</Name>
+    <ID>InfoPath</ID>
+    <Version>1</Version>
+    <DeferToOffice365/>
+    <Processes>
+      <Process>
+        <Filename>INFOPATH.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\15.0\InfoPath\Desiger User MRU</Path>
+      </Registry>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\15.0\InfoPath\Filler User MRU</Path>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Access 2013 Office 365 (64-bit)</Name>
+    <ID>Access</ID>
+    <Version>1</Version>
+    <DeferToOffice365/>
+    <Processes>
+      <Process>
+        <Filename>MSACCESS.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\15.0\Access\User MRU</Path>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Outlook 2013 Office 365 (64-bit)</Name>
+    <ID>Outlook</ID>
+    <Version>1</Version>
+    <DeferToOffice365/>
+    <Processes>
+      <Process>
+        <Filename>OUTLOOK.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>*.acl</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path Recursive="true">Microsoft\Office\15.0</Path>
+        <FileMask>RoamingCustom.dic</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Templates</Path>
+        <FileMask>*.oft</FileMask>
+        <FileMask>normalEmail.dotm</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft SharePoint Designer 2013 Office 365 (64-bit)</Name>
+    <ID>SharePointDesigner</ID>
+    <Version>1</Version>
+    <DeferToOffice365/>
+    <Processes>
+      <Process>
+        <Filename>SPDESIGN.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings />
+  </Application>
+  <Application>
+    <Name>Microsoft Project 2013 Office 365 (64-bit)</Name>
+    <ID>Project</ID>
+    <Version>1</Version>
+    <DeferToOffice365/>
+    <Processes>
+      <Process>
+        <Filename>WINPROJ.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\15.0\MS Project\User MRU</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\15.0\MS Project\Recent File List</Path>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path Recursive="true">Microsoft\MS Project\15</Path>
+        <FileMask>*.mpt</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Publisher 2013 Office 365 (64-bit)</Name>
+    <ID>Publisher</ID>
+    <Version>1</Version>
+    <DeferToOffice365/>
+    <Processes>
+      <Process>
+        <Filename>MSPUB.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\15.0\Publisher\User MRU</Path>
+      </Registry>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft OneNote 2013 Office 365 (64-bit)</Name>
+    <ID>OneNote</ID>
+    <Version>1</Version>
+    <DeferToOffice365/>
+    <Processes>
+      <Process>
+        <Filename>ONENOTE.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="15" Maximum="15" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\15.0\OneNote\User MRU</Path>
+      </Registry>
+    </Settings>
+  </Application>
+</SettingsLocationTemplate>

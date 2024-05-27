@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2012/SettingsLocationTemplate">
+  <Name>Total Commander</Name>
+  <ID>TotalCommander</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>Michel Timmerman</Name>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>TOTALCMD.EXE</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <Registry>
+      <Path Recursive="true">Software\Ghisler</Path>
+    </Registry>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">GHISLER</Path>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>

@@ -1,0 +1,1996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Modifying the settings location templates for an application or a 
+Windows setting group provided with Microsoft User Experience Virtualization 
+may cause synchronization for the modified settings to fail. 
+For more information about settings location templates please see 
+the UE-V product documentation.  http://go.microsoft.com/fwlink/?LinkId=260889
+-->
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2012/SettingsLocationTemplate">
+  <Name>Microsoft Office 2010 (64-bit)</Name>
+  <ID>MicrosoftOffice2010Win64</ID>
+  <Common>
+    <Name>Common Settings</Name>
+    <ID>common</ID>
+    <Version>19</Version>
+    <Settings>
+      <PreventOverlappingSynchronization>false</PreventOverlappingSynchronization>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common</Path>
+        <Name>Theme</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\AutoCorrect</Path>
+        <Name>ACOptions</Name>
+        <Name>CapitalizeNamesOfDays</Name>
+        <Name>CapitalizeSentence</Name>
+        <Name>CapTable</Name>
+        <Name>CorrectTwoInitialCapitals</Name>
+        <Name>MathReplaceText</Name>
+        <Name>ReplaceText</Name>
+        <Name>ToggleCapsLock</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\General</Path>
+        <Name>AcbControl</Name>
+        <Name>AcbOn</Name>
+        <Name>AcbST</Name>
+        <Name>AcbSysIcon</Name>
+        <Name>AcbTips</Name>
+        <Name>PasteOptions</Name>
+        <Name>ReportAddinCustomUIErrors</Name>
+        <Name>Sound</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Internet</Path>
+        <Name>AllowPNG</Name>
+        <Name>AlwaysSaveInDefaultEncoding</Name>
+        <Name>DisableCustomerSubmittedDownload</Name>
+        <Name>DoNotCheckIfOfficeIsHTMLEditor</Name>
+        <Name>DoNotOrganizeInFolder</Name>
+        <Name>DoNotRelyOnCSS</Name>
+        <Name>DoNotUpdateLinksOnSave</Name>
+        <Name>DoNotUseLongFileNames</Name>
+        <Name>PixelsPerInch</Name>
+        <Name>RelyOnVML</Name>
+        <Name>SaveNewWebPagesAsWebArchives</Name>
+        <Name>ScreenSize</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\LanguageResources</Path>
+        <Name>FollowSystemUI</Name>
+        <Name>HelpExplicit</Name>
+        <Name>HelpFallback</Name>
+        <Name>HelpLanguage</Name>
+        <Name>InstallLanguage</Name>
+        <Name>OutlookChangeInstallLanguage</Name>
+        <Name>PPTChangeInstallLanguage</Name>
+        <Name>PreviousInstallLanguage</Name>
+        <Name>PreviousUI</Name>
+        <Name>PublisherChangeInstallLanguage</Name>
+        <Name>UIFallback</Name>
+        <Name>UILanguage</Name>
+        <Name>WordChangeInstallLanguage</Name>
+        <Name>WordMailChangeInstallLanguage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\LanguageResources\EnabledLanguages</Path>
+      </Registry>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\14.0\Common\Research</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars</Path>
+        <Name>ScreenTipScheme</Name>
+        <Name>ShowKbdShortcuts</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\UICaptions</Path>
+        <Name>Active</Name>
+        <Name>DefaultLanguage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\Common\Offline\Options</Path>
+        <Name>Location</Name>
+        <Name>UseLocalDrafts</Name>
+      </Registry>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\Common\Smart Tag\Recognizers</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\Common\UserInfo</Path>
+        <Name>UserInitials</Name>
+        <Name>UserName</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared</Path>
+        <Name>OfficeUILanguage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Custom Dictionaries</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Office</Path>
+        <Name>ArabicStrictAlefHamza</Name>
+        <Name>ArabicStrictFinalYaa</Name>
+        <Name>ArabicStrictTaaMarboota</Name>
+        <Name>BrazilModes</Name>
+        <Name>EnforceAccentedUppercase</Name>
+        <Name>FlagRepeatedWord</Name>
+        <Name>FrenchReform</Name>
+        <Name>GermanLanguageOptions</Name>
+        <Name>IgnoreInternetFileAddresses</Name>
+        <Name>IgnoreUpperCase</Name>
+        <Name>IgnoreWordsWithNumbers</Name>
+        <Name>KoreanAuxCombine</Name>
+        <Name>KoreanCompoundNounProc</Name>
+        <Name>KoreanMissSpellDictSearch</Name>
+        <Name>SpanishUseTuteo</Name>
+        <Name>SpanishUseVoseo</Name>
+        <Name>SpellCheckingLanguageforAcc_Xl_Prj_Grv</Name>
+        <Name>SuggestFromMainLexOnly</Name>
+      </Registry>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Shared Tools\Proofing Tools\Grammar\MSGrammar</Path>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>*.acl</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path Recursive="true">Microsoft\Templates</Path>
+        <FileMask>*.thmx</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\UProof</Path>
+      </File>
+    </Settings>
+  </Common>
+  <Application>
+    <Name>Microsoft Access 2010 (64-bit)</Name>
+    <ID>Access</ID>
+    <Version>19</Version>
+    <Processes>
+      <Process>
+        <Filename>MSACCESS.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Access\File MRU</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Access\Security\Crypto</Path>
+        <Name>CompatMode</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Access\Settings</Path>
+        <Name>_41</Name>
+        <Name>Always Use Event Procedures</Name>
+        <Name>ANSI 92 Default For New Databases</Name>
+        <Name>Arrow Key Behavior</Name>
+        <Name>AutoIndex on Import/Create</Name>
+        <Name>Behavior Entering Field</Name>
+        <Name>Bottom Margin</Name>
+        <Name>Common Report Errors Error Checking</Name>
+        <Name>Confirm Action Queries</Name>
+        <Name>Confirm Document Deletions</Name>
+        <Name>Confirm Record Changes</Name>
+        <Name>Cursor</Name>
+        <Name>Cursor Stops at First/Last Field</Name>
+        <Name>Default Cell Effect</Name>
+        <Name>Default Column Width</Name>
+        <Name>Default Field Type</Name>
+        <Name>Default File Format</Name>
+        <Name>Default Find/Replace Behavior</Name>
+        <Name>Default Font Italic</Name>
+        <Name>Default Font Size</Name>
+        <Name>Default Font Underline</Name>
+        <Name>Default Font Weight</Name>
+        <Name>Default Gridlines Horizontal</Name>
+        <Name>Default Gridlines Vertical</Name>
+        <Name>Default Number Field Size</Name>
+        <Name>Default Open Mode for Databases</Name>
+        <Name>Default Record Locking</Name>
+        <Name>Default Text Field Size</Name>
+        <Name>Enable AutoJoin</Name>
+        <Name>Enable DDE Refresh</Name>
+        <Name>Enable Error Checking</Name>
+        <Name>Error Checking Indicator Color</Name>
+        <Name>Form Template</Name>
+        <Name>Four-Digit Year Formatting All Databases</Name>
+        <Name>General Alignment</Name>
+        <Name>Ignore DDE Requests</Name>
+        <Name>Invalid Control Source Error Checking</Name>
+        <Name>Keyboard Shortcut Errors Error Checking</Name>
+        <Name>Left Margin</Name>
+        <Name>LivePreview</Name>
+        <Name>LoadLast</Name>
+        <Name>Maximized</Name>
+        <Name>Move After Enter</Name>
+        <Name>New Database Sort Order</Name>
+        <Name>New Tables/Queries/Forms/Reports</Name>
+        <Name>New Unassociated Label Error Checking</Name>
+        <Name>Number of Update Retries</Name>
+        <Name>ODBC Refresh Interval (sec)</Name>
+        <Name>OLE/DDE Timeout (sec)</Name>
+        <Name>Output All Fields</Name>
+        <Name>Query Design Font Name</Name>
+        <Name>Query Design Font Size</Name>
+        <Name>Refresh Interval (sec)</Name>
+        <Name>Report Template</Name>
+        <Name>Right Margin</Name>
+        <Name>Run Permissions</Name>
+        <Name>Selection Behavior</Name>
+        <Name>Show Animations</Name>
+        <Name>Show Property Update Options buttons</Name>
+        <Name>Show Smart Tags on Datasheets</Name>
+        <Name>Show Smart Tags on Forms</Name>
+        <Name>Show Status Bar</Name>
+        <Name>Show Table Names</Name>
+        <Name>Top Margin</Name>
+        <Name>Unassociated Label and Control Error Checking</Name>
+        <Name>Update Retry Interval (msec)</Name>
+        <Name>Use Row Level Locking</Name>
+        <Name>Window Height</Name>
+        <Name>Window Width</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common</Path>
+        <Name>RespectSystemFontSmooth</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\LanguageResources</Path>
+        <Name>AccessChangeInstallLanguage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars\Access</Path>
+        <Name>QuickAccessToolbarStyle</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Office</Path>
+        <Name>AccessSpellingOptions</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Templates</Path>
+        <FileMask>*.accdt</FileMask>
+        <FileMask>*.accdu</FileMask>
+        <FileMask>*.mdt</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>Access.officeUI</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Excel 2010 (64-bit)</Name>
+    <ID>Excel</ID>
+    <Version>19</Version>
+    <Processes>
+      <Process>
+        <Filename>EXCEL.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Charting\Excel\DefaultChart</Path>
+        <Name>SubType</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\LanguageResources</Path>
+        <Name>XLChangeInstallLanguage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars\Excel</Path>
+        <Name>AllowSelectionFloaties</Name>
+        <Name>QuickAccessToolbarStyle</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Excel\Error Checking</Path>
+        <Name>BackgroundChecking</Name>
+        <Name>CalculatedColumns</Name>
+        <Name>DataValidation</Name>
+        <Name>EmptyCellReferences</Name>
+        <Name>EvaluateToError</Name>
+        <Name>InconsistentFormula</Name>
+        <Name>IndicatorColorIndex</Name>
+        <Name>NumberAsText</Name>
+        <Name>OmittedCells</Name>
+        <Name>TextDate</Name>
+        <Name>UnlockedFormulaCells</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Excel\File MRU</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Excel\Internet</Path>
+        <Name>DoNotLoadPictures</Name>
+        <Name>DoNotSaveHiddenData</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Excel\Internet\Fonts</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Excel\Options</Path>
+        <Name>A4Letter</Name>
+        <Name>AlertForLargeOperations</Name>
+        <Name>AutoCreateCalcCol</Name>
+        <Name>AutoDec</Name>
+        <Name>AutoExpandListRange</Name>
+        <Name>AutoHyperlink</Name>
+        <Name>AutoRecoverEnabled</Name>
+        <Name>AutoRecoverTime</Name>
+        <Name>ControlCharacters</Name>
+        <Name>CursorVisual</Name>
+        <Name>DecimalSeparator</Name>
+        <Name>DefaultFormat</Name>
+        <Name>DefaultSheetR2L</Name>
+        <Name>DefaultView</Name>
+        <Name>DefSheets</Name>
+        <Name>DeveloperTools</Name>
+        <Name>DontSupportUndoForLargePivotTables</Name>
+        <Name>ExtendList</Name>
+        <Name>Font</Name>
+        <Name>GenerateGetPivotData</Name>
+        <Name>GenerateTableStructRefs</Name>
+        <Name>KeepUnsavedChanges</Name>
+        <Name>LargeOperationCellCount</Name>
+        <Name>LastUILang</Name>
+        <Name>LivePreview</Name>
+        <Name>Maximized</Name>
+        <Name>MenuKey</Name>
+        <Name>MoveEnterDir</Name>
+        <Name>Options</Name>
+        <Name>Options3</Name>
+        <Name>Options5</Name>
+        <Name>Options6</Name>
+        <Name>Options95</Name>
+        <Name>OptionsDlgSizePos</Name>
+        <Name>PivotTableUndoRowThousandCount</Name>
+        <Name>Pos</Name>
+        <Name>RecognizeSmartTags</Name>
+        <Name>RulerUnit</Name>
+        <Name>ShowWindowsInTaskbar</Name>
+        <Name>StickyPtX</Name>
+        <Name>StickyPtY</Name>
+        <Name>ThousandsSeparator</Name>
+        <Name>UseSystemSeparators</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Excel\Place MRU</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Excel\Security\Trusted Documents</Path>
+        <Name>DisablePromptOpenNetworkTrustedDocuments</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Excel\StatusBar</Path>
+        <Name>Average</Name>
+        <Name>CapsLock</Name>
+        <Name>CellCount</Name>
+        <Name>CellMode</Name>
+        <Name>DigitalSignatures</Name>
+        <Name>EndMode</Name>
+        <Name>FixedDecimal</Name>
+        <Name>InformationManagementPolicy</Name>
+        <Name>MacroRecord</Name>
+        <Name>MaxValue</Name>
+        <Name>MinValue</Name>
+        <Name>NumberCount</Name>
+        <Name>NumLock</Name>
+        <Name>OverType</Name>
+        <Name>PageNum</Name>
+        <Name>PermissionPolicy</Name>
+        <Name>ScrollLock</Name>
+        <Name>SelectionMode</Name>
+        <Name>Sum</Name>
+        <Name>UploadStatus</Name>
+        <Name>ViewShortcuts</Name>
+        <Name>Zoom</Name>
+        <Name>ZoomSlider</Name>
+      </Registry>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\Common\Smart Tag\Recognizers</Path>
+        <Name>XLMAIN</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Office</Path>
+        <Name>ExcelSpellingOptions</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Templates</Path>
+        <FileMask>*.xltm</FileMask>
+        <FileMask>*.xltx</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>Excel.officeUI</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Groove 2010 (64-bit)</Name>
+    <ID>Groove</ID>
+    <Version>19</Version>
+    <Processes>
+      <Process>
+        <Filename>GROOVE.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\LanguageResources</Path>
+        <Name>SharePointDesignerChangeInstallLanguage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars\Groove</Path>
+        <Name>QuickAccessToolbarStyleLB</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>GrooveLB.officeUI</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft InfoPath 2010 (64-bit)</Name>
+    <ID>InfoPath</ID>
+    <Version>19</Version>
+    <Processes>
+      <Process>
+        <Filename>INFOPATH.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Classes\CLSID\{AB968F1E-E20B-403A-9EB8-72EB0EB6797E}</Path>
+        <Name>DisableDetection</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\LanguageResources</Path>
+        <Name>InfoPathChangeInstallLanguage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars\InfoPath</Path>
+        <Name>AllowSelectionFloaties</Name>
+        <Name>DesignerRibbonBootsCollapsed</Name>
+        <Name>QuickAccessToolbarStyle</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath</Path>
+        <Name>AutoRecoverInterval</Name>
+        <Name>EnableAutoRecover</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath\Designer</Path>
+        <Name>LabelCreation</Name>
+        <Name>ScriptLang</Name>
+        <Name>ServerLanguage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath\Designer File MRU</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath\Editor\Offline</Path>
+        <Name>CachedModeStatus</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath\EditorCommon</Path>
+        <Name>DisableAutoAdvance</Name>
+        <Name>InkEntry</Name>
+        <Name>InkEntryDelayTime</Name>
+        <Name>InkEntryGuide</Name>
+        <Name>WindowMode</Name>
+        <Name>WindowPosBottom</Name>
+        <Name>WindowPosLeft</Name>
+        <Name>WindowPosRight</Name>
+        <Name>WindowPosTop</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath\FE</Path>
+        <Name>EqLongVowel</Name>
+        <Name>EqMinus</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath\Filler File MRU</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath\Form Debugging</Path>
+        <Name>ShowExceptionsDialog</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath\Internet Explorer\Main</Path>
+        <Name>Print_Background</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath\Language</Path>
+        <Name>DefaultLanguage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath\Paste</Path>
+        <Name>PasteExternal</Name>
+        <Name>PasteInternal</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath\Security</Path>
+        <Name>SignatureWarning</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\InfoPath\StatusBar</Path>
+        <Name>EditorOfflineCache</Name>
+        <Name>EditorRole</Name>
+        <Name>EditorSecurityIcon</Name>
+        <Name>EditorSolutionLocation</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Office</Path>
+        <Name>InfoPathSpellingOptions</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Templates</Path>
+        <FileMask>*.xsn</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>IPDesigner.officeUI</FileMask>
+        <FileMask>IPEditor.officeUI</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft OneNote 2010 (64-bit)</Name>
+    <ID>OneNote</ID>
+    <Version>19</Version>
+    <Processes>
+      <Process>
+        <Filename>ONENOTE.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\LanguageResources</Path>
+        <Name>OneNoteChangeInstallLanguage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars\OneNote</Path>
+        <Name>AllowSelectionFloaties</Name>
+        <Name>QuickAccessToolbarStyle</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\OneNote\General</Path>
+        <Name>NavigationBarSize</Name>
+        <Name>PageTabSize</Name>
+        <Name>WindowMode</Name>
+        <Name>WindowPosBottom</Name>
+        <Name>WindowPosLeft</Name>
+        <Name>WindowPosRight</Name>
+        <Name>WindowPosTop</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\OneNote\OpenNotebooks</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\OneNote\Options</Path>
+        <Name>Email Attachment</Name>
+        <Name>Email Embedded Files</Name>
+        <Name>OfficeCenterSizePos</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\microsoft\office\14.0\onenote\options\audio</Path>
+        <Name>Rewind</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\OneNote\Options\Editing</Path>
+        <Name>AutoCalculate</Name>
+        <Name>Bullet Auto Reco</Name>
+        <Name>DefaultFontColor</Name>
+        <Name>DefaultFontFace</Name>
+        <Name>DefaultFontSize</Name>
+        <Name>Numbering Auto Reco</Name>
+        <Name>PasteIncludeURL</Name>
+        <Name>WikiLink</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\OneNote\Options\LinkedNotes</Path>
+        <Name>AutoLink</Name>
+        <Name>SaveContext</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\microsoft\office\14.0\onenote\options\other</Path>
+        <Name>DisableOCR</Name>
+        <Name>DisableScreenClippingBalloon</Name>
+        <Name>DuplicateNoteFlag</Name>
+        <Name>EMailSignature</Name>
+        <Name>MeasurementUnit</Name>
+        <Name>NavBarOnLeft</Name>
+        <Name>NavigationBarExpColState</Name>
+        <Name>PageTabsExpColState</Name>
+        <Name>PageTabsOnLeft</Name>
+        <Name>PasteOoui</Name>
+        <Name>RuleLinesDefault</Name>
+        <Name>RunSystemTrayApp</Name>
+        <Name>ShowInactiveNoteFlag</Name>
+        <Name>ShowNewPageFloatie</Name>
+        <Name>ShowNoteContainers</Name>
+        <Name>Signature</Name>
+        <Name>VertScrollBarOnLeft</Name>
+        <Name>Zoom</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\OneNote\Options\OutlookAndWeb</Path>
+        <Name>OutlookContactsLocation</Name>
+        <Name>OutlookEmailLocation</Name>
+        <Name>OutlookMeetingsLocation</Name>
+        <Name>OutlookTasksLocation</Name>
+        <Name>PrintoutsLocation</Name>
+        <Name>ScreenClippingsLocation</Name>
+        <Name>WebNotesLocation</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\microsoft\office\14.0\onenote\options\pen</Path>
+        <Name>AutoModeSwitch</Name>
+        <Name>DisableScratchOut</Name>
+        <Name>InkPressure</Name>
+        <Name>UseRuleLines</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\microsoft\office\14.0\onenote\options\save</Path>
+        <Name>BackupEnableAutoBackup</Name>
+        <Name>BackupNumberOfBackupsToKeep</Name>
+        <Name>BackupRunEveryXMinutes</Name>
+        <Name>EnableOptimizeSections</Name>
+        <Name>OptimizeSectionsIntervalMinutes</Name>
+        <Name>PercentFreeSpaceBeforeOptimize</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\OneNote\RecentNotebooks</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\OneNote\Security</Path>
+        <Name>AllowAddinAccessToEncryptedFiles</Name>
+        <Name>LockIdleSections</Name>
+        <Name>LockSectionsImmediately</Name>
+        <Name>PasswordTimeout</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\OneNote\Side Note</Path>
+        <Name>IsDocked</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Office</Path>
+        <Name>OneNoteSpellingOptions</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>OneNote.officeUI</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Outlook 2010 (64-bit)</Name>
+    <ID>Outlook</ID>
+    <Version>19</Version>
+    <Processes>
+      <Process>
+        <Filename>OUTLOOK.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common</Path>
+        <Name>TurnOffPhotograph</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\DesktopAlerts</Path>
+        <Name>Opacity</Name>
+        <Name>TimeOn</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\IM</Path>
+        <Name>TurnOffPresenceIcon</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\MailSettings</Path>
+        <Name>AutosaveTime</Name>
+        <Name>ComposeFontComplex</Name>
+        <Name>ComposeFontSimple</Name>
+        <Name>EnableLivePreview</Name>
+        <Name>FilterHTMLOnSend</Name>
+        <Name>IgnoreReplySpelling</Name>
+        <Name>MarkComments</Name>
+        <Name>MarkCommentsWith</Name>
+        <Name>NewTheme</Name>
+        <Name>PlainWrapLen</Name>
+        <Name>ReplyFontComplex</Name>
+        <Name>ReplyFontSimple</Name>
+        <Name>ShadeReadingHeaders</Name>
+        <Name>TextFontComplex</Name>
+        <Name>TextFontSimple</Name>
+        <Name>ThemeFont</Name>
+        <Name>UseCSSInHTML</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Portal\ColleagueImport</Path>
+        <Name>Enabled</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars\Outlook</Path>
+        <Name>AllowSelectionFloaties</Name>
+        <Name>QuickAccessToolbarStyleExplorer</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook</Path>
+        <Name>LastUILanguage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\2380</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\4213</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Appointment</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Appointment Request</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Appointment Response</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Contact</Path>
+        <Name>ConfirmAddress</Name>
+        <Name>ConfirmDuplicates</Name>
+        <Name>FileAsOrder</Name>
+        <Name>Frame</Name>
+        <Name>IndexTabsOn</Name>
+        <Name>IndexTabsScript</Name>
+        <Name>NameParserStyle</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\DistList</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Folder Finder</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Forms</Path>
+        <Name>EnableMapiForms</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Journal Entry</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Message</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Note</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Office Explorer</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Office Finder</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options</Path>
+        <Name>DeveloperTools</Name>
+        <Name>FlipExplorerPanesForRTL</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\Calendar</Path>
+        <Name>AllowPropose</Name>
+        <Name>BackgroundColorIndex</Name>
+        <Name>Calendar Direction</Name>
+        <Name>ClickToAdd</Name>
+        <Name>DatePickerFont</Name>
+        <Name>FirstDOW</Name>
+        <Name>FirstWOY</Name>
+        <Name>Propose Response Type</Name>
+        <Name>SendMtgAsICAL</Name>
+        <Name>ShowReminderBell</Name>
+        <Name>Text Direction</Name>
+        <Name>UseSameColor</Name>
+        <Name>WeekNum</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\Conversations</Path>
+        <Name>NoKeyboardAutoexpand</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\Flagging</Path>
+        <Name>DefaultToDoFlag</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\General</Path>
+        <Name>AutoProcRcpts</Name>
+        <Name>Check Default Client</Name>
+        <Name>DisableIDN</Name>
+        <Name>LastUILang</Name>
+        <Name>MSGFormat</Name>
+        <Name>NumDaysExpire</Name>
+        <Name>PONT_STRING</Name>
+        <Name>SAVE_LOC</Name>
+        <Name>SingleKeyReading</Name>
+        <Name>WarnDelete</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\Journal</Path>
+        <Name>EnableJournal</Name>
+        <Name>Journal Open Assoc Item</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\Mail</Path>
+        <Name>AutoFormatPlainText</Name>
+        <Name>DisableInfopathForms</Name>
+        <Name>EditorPreference</Name>
+        <Name>EnableLogging</Name>
+        <Name>Hangup after Spool</Name>
+        <Name>Message Plain Format MIME</Name>
+        <Name>Message RTF Format</Name>
+        <Name>Poll on DUN</Name>
+        <Name>Receipt Response</Name>
+        <Name>Send Mail Immediately</Name>
+        <Name>Warn on Dialup</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\MSHTML\International</Path>
+        <Name>Autodetect_CodePageOut</Name>
+        <Name>Autodetect_VCardCP</Name>
+        <Name>Default_CodePageOut</Name>
+        <Name>PreferredVCardCP</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\Note</Path>
+        <Name>NoteColor</Name>
+        <Name>NoteDatestamp</Name>
+        <Name>NoteFont</Name>
+        <Name>NoteSize</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\Reminders</Path>
+        <Name>PlaySound</Name>
+        <Name>Type</Name>
+        <Name>WindowPos</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\RSS</Path>
+        <Name>RssUpdItemAsNewItem</Name>
+        <Name>SyncToSysCFL</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\Spelling</Path>
+        <Name>Check</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\Tasks</Path>
+        <Name>AddToSOCList</Name>
+        <Name>AddToUpdList</Name>
+        <Name>CompleteColor</Name>
+        <Name>OverdueColor</Name>
+        <Name>TaskAutoRemind</Name>
+        <Name>TaskRemindTime</Name>
+        <Name>UnitsPerDay</Name>
+        <Name>UnitsPerWeek</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\ToDoBar</Path>
+        <Name>ApptOrTasksSize</Name>
+        <Name>ContactListSize</Name>
+        <Name>MiniToDoBarMode</Name>
+        <Name>NumAppointments</Name>
+        <Name>NumDateNavigators</Name>
+        <Name>ShowAllDayEvents</Name>
+        <Name>ShowPhotoInContactList</Name>
+        <Name>ShowPrivateDetails</Name>
+        <Name>ShowQuickContacts</Name>
+        <Name>ShowTaskList</Name>
+        <Name>SplitterPosition</Name>
+        <Name>ToDoBarWidth</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Options\WunderBar</Path>
+        <Name>AutoSwitchingHorizontalToVertical</Name>
+        <Name>AutoSwitchingVerticalToHorizontal</Name>
+        <Name>BootModule</Name>
+        <Name>EnableAutoSwitchingHorizontalToVertical</Name>
+        <Name>EnableAutoSwitchingVerticalToHorizontal</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Preferences</Path>
+        <Name>ABColWidths</Name>
+        <Name>ABModalHeight</Name>
+        <Name>ABModalWidth</Name>
+        <Name>AfterMove</Name>
+        <Name>AllowCommasInRecip</Name>
+        <Name>ApptReminders</Name>
+        <Name>AutoNameCheck</Name>
+        <Name>ChangePointer</Name>
+        <Name>CloseOrig</Name>
+        <Name>CtrlEnterSends</Name>
+        <Name>DeleteWhenRespond</Name>
+        <Name>DeliveryReceipt</Name>
+        <Name>EmptyTrash</Name>
+        <Name>ENMessageFlags</Name>
+        <Name>ENMessageHeaders</Name>
+        <Name>ForwardStyle</Name>
+        <Name>HideMailFavorites</Name>
+        <Name>Importance</Name>
+        <Name>ModuleOrder</Name>
+        <Name>ModuleVisible</Name>
+        <Name>NavPaneFont</Name>
+        <Name>NewmailDesktopAlerts</Name>
+        <Name>NewmailDesktopAlertsDRMPreview</Name>
+        <Name>NumBigModules</Name>
+        <Name>PlaySound</Name>
+        <Name>PrefixText</Name>
+        <Name>PreviewDontMarkUntilChange</Name>
+        <Name>PreviewMarkMessage</Name>
+        <Name>PreviewWaitSeconds</Name>
+        <Name>ReadReceipt</Name>
+        <Name>ReplyStyle</Name>
+        <Name>SaveFW</Name>
+        <Name>SaveReplies</Name>
+        <Name>SaveSent</Name>
+        <Name>Sensitivity</Name>
+        <Name>ShowAutoSug</Name>
+        <Name>ShowContactField</Name>
+        <Name>ShowEnvelope</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Report</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Search</Path>
+        <Name>AlwaysSearchAllItems</Name>
+        <Name>DisableHitHighlighting</Name>
+        <Name>DisableIndexStatePrompt</Name>
+        <Name>DisableWordwheeling</Name>
+        <Name>HitHighlightingBackgroundColor</Name>
+        <Name>IncludeDeletedItems</Name>
+        <Name>SearchResultsCap</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\StatusBar</Path>
+        <Name>Filter</Name>
+        <Name>HeaderCount</Name>
+        <Name>ItemCount</Name>
+        <Name>QuotaThermometer</Name>
+        <Name>Reminder</Name>
+        <Name>UnreadCount</Name>
+        <Name>ViewShortcuts</Name>
+        <Name>Zoom</Name>
+        <Name>ZoomSlider</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Outlook\Task</Path>
+        <Name>Frame</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Word\Data</Path>
+        <Name>SettingsWordMail</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Word\Options</Path>
+        <Name>AutoGrammarWordMail</Name>
+        <Name>AutoSpellWordMail</Name>
+        <Name>WordMailACOptions</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Word\Options\WordMail</Path>
+        <Name>AutoCreateCanvas</Name>
+        <Name>AutoTextDelete</Name>
+        <Name>AutoWordSelect</Name>
+        <Name>ClickAndType</Name>
+        <Name>CtrlClickHyperlink</Name>
+        <Name>DragAndDropText</Name>
+        <Name>Factoid</Name>
+        <Name>InsertFloating</Name>
+        <Name>InsertForOvertype</Name>
+        <Name>InsForPaste</Name>
+        <Name>MarkFormatting</Name>
+        <Name>MeasurementUnits</Name>
+        <Name>NewColorOnReply</Name>
+        <Name>NormalStyleForList</Name>
+        <Name>OptimizeCharForLayout</Name>
+        <Name>PixelsInDialogs</Name>
+        <Name>PlainTextAutoFormat</Name>
+        <Name>PromptUpdateStyle</Name>
+        <Name>SmartCursoring</Name>
+        <Name>SmartParagraphSelect</Name>
+        <Name>TrackFormatting</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\Outlook\SocialConnector</Path>
+        <Name>PeoplePaneExplorerHeight</Name>
+        <Name>PeoplePaneModeExplorer</Name>
+        <Name>PeoplePanePivotSelected</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Office</Path>
+        <Name>OutlookSpellingOptions</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Windows\CurrentVersion\Internet Settings\Protocols\Mailto</Path>
+        <Name>UTF8Encoding</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path Recursive="true">Microsoft\Signatures</Path>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Templates</Path>
+        <FileMask>*.oft</FileMask>
+        <FileMask>normalEmail.dotm</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>olkexplorer.officeUI</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft PowerPoint 2010 (64-bit)</Name>
+    <ID>PowerPoint</ID>
+    <Version>19</Version>
+    <Processes>
+      <Process>
+        <Filename>POWERPNT.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars\PowerPoint</Path>
+        <Name>AllowSelectionFloaties</Name>
+        <Name>QuickAccessToolbarStyle</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\PowerPoint\File MRU</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\PowerPoint\Options</Path>
+        <Name>AFFract</Name>
+        <Name>AFLinks</Name>
+        <Name>AFLists</Name>
+        <Name>AFOrds</Name>
+        <Name>AFSmile</Name>
+        <Name>AFSymb</Name>
+        <Name>AppMaximized</Name>
+        <Name>AutoFitTextBody</Name>
+        <Name>AutoFitTextTitle</Name>
+        <Name>BackgroundPrint</Name>
+        <Name>Bottom</Name>
+        <Name>DefaultFormat</Name>
+        <Name>DeveloperTools</Name>
+        <Name>DragAndDrop</Name>
+        <Name>FrequencyToSaveAutoRecoveryInfo</Name>
+        <Name>GridSpacing</Name>
+        <Name>GridVisible</Name>
+        <Name>GuidesVisible</Name>
+        <Name>KeepUnsavedChanges</Name>
+        <Name>Left</Name>
+        <Name>LivePreview</Name>
+        <Name>Number of Undos</Name>
+        <Name>OptionsDlgSizePos</Name>
+        <Name>PrintHighQualityDefault</Name>
+        <Name>PrintMetafileScaling</Name>
+        <Name>Right</Name>
+        <Name>RulersVisible</Name>
+        <Name>SaveAutoRecoveryInfo</Name>
+        <Name>Send printer information to OLE servers</Name>
+        <Name>Send TrueType fonts as bitmaps</Name>
+        <Name>ShowCoauthoringMergeChanges</Name>
+        <Name>ShowSmartGuides</Name>
+        <Name>SmartCutPaste</Name>
+        <Name>SmartQuotes</Name>
+        <Name>SmartTagRecognize</Name>
+        <Name>SnapToGrid</Name>
+        <Name>SnapToShape</Name>
+        <Name>SSEndOnBlankSlide</Name>
+        <Name>SSMenuButton</Name>
+        <Name>SSPromptToSaveInk</Name>
+        <Name>SSRightMouse</Name>
+        <Name>Top</Name>
+        <Name>UserViewDefaults</Name>
+        <Name>VerticalRuler</Name>
+        <Name>WordSelection</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\PowerPoint\Options\File MRU</Path>
+        <Name>Max Display</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\PowerPoint\Place MRU</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\PowerPoint\RecentAnimationList</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\PowerPoint\StatusBar</Path>
+        <Name>CoauthorCount</Name>
+        <Name>DesignName</Name>
+        <Name>DigitalSignatures</Name>
+        <Name>InformationManagementPolicy</Name>
+        <Name>Language</Name>
+        <Name>PermissionPolicy</Name>
+        <Name>SpellCheck</Name>
+        <Name>UpdatesAvailable</Name>
+        <Name>UploadStatus</Name>
+        <Name>ViewIndicator</Name>
+        <Name>ViewShortcuts</Name>
+        <Name>Zoom</Name>
+        <Name>ZoomSlider</Name>
+        <Name>ZoomToFit</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Office</Path>
+        <Name>PowerPointSpellingOptions</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Templates</Path>
+        <FileMask>*.potm</FileMask>
+        <FileMask>*.potx</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>PowerP14.customUI</FileMask>
+        <FileMask>PowerPoint.officeUI</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Project 2010 (64-bit)</Name>
+    <ID>Project</ID>
+    <Version>19</Version>
+    <Processes>
+      <Process>
+        <Filename>WINPROJ.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\LanguageResources</Path>
+        <Name>ProjectChangeInstallLanguage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars\Project</Path>
+        <Name>QuickAccessToolbarStyle</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Options\Calculation</Path>
+        <Name>Actual costs are always calculated by Microsoft Project</Name>
+        <Name>AndMoveCompleted</Name>
+        <Name>AndMoveRemaining</Name>
+        <Name>Auto Calc</Name>
+        <Name>Auto Track Resources</Name>
+        <Name>Calculate Multiple Critical Paths</Name>
+        <Name>Default Fixed Costs Accrual</Name>
+        <Name>Edits to total actual cost will be spread to the status date</Name>
+        <Name>Edits to total task %Complete will be spread to the status date</Name>
+        <Name>EVBaseline</Name>
+        <Name>EVMethod</Name>
+        <Name>Inserted projects are calculated like summary tasks</Name>
+        <Name>MoveCompleted</Name>
+        <Name>MoveRemaining</Name>
+        <Name>Show As Critical if Slack</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Options\Calendar</Path>
+        <Name>Default Days/Month</Name>
+        <Name>Default End Time</Name>
+        <Name>Default Hours/Day</Name>
+        <Name>Default Hours/Week</Name>
+        <Name>Default Start Time</Name>
+        <Name>Fiscal Year Starts In</Name>
+        <Name>Start Week Day</Name>
+        <Name>Use Starting Year for FY Numbering</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Options\Edit</Path>
+        <Name>DayLabelDisplay</Name>
+        <Name>Drag And Drop</Name>
+        <Name>EnterMove</Name>
+        <Name>HourLabelDisplay</Name>
+        <Name>InCellEdit</Name>
+        <Name>MinuteLabelDisplay</Name>
+        <Name>MonthLabelDisplay</Name>
+        <Name>Prompt for Update Links</Name>
+        <Name>SpaceBeforeTimeLabel</Name>
+        <Name>WebFollowedColor</Name>
+        <Name>WebNotFollowedColor</Name>
+        <Name>WebUnderlineHyperlinks</Name>
+        <Name>WeekLabelDisplay</Name>
+        <Name>YearLabelDisplay</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Options\General</Path>
+        <Name>Ask for Summary Info at New</Name>
+        <Name>Auto Add Resources</Name>
+        <Name>DefFileMRU</Name>
+        <Name>Maximized</Name>
+        <Name>Ovt. Rate</Name>
+        <Name>Set AutoFilter On for New Projects</Name>
+        <Name>Start With Last File</Name>
+        <Name>Std. Rate</Name>
+        <Name>UndoLevels</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Options\Interface</Path>
+        <Name>ChangeDurationOOUI</Name>
+        <Name>DeleteNameOOUI</Name>
+        <Name>EnterDateOOUI</Name>
+        <Name>ResourceAssignOOUI</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Options\PlanningWizard</Path>
+        <Name>Display PlanningWizard</Name>
+        <Name>Error Advice</Name>
+        <Name>PlanningWizard Cases</Name>
+        <Name>Scheduling Advice</Name>
+        <Name>Usage Advice</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Options\Save</Path>
+        <Name>AutomaticSave</Name>
+        <Name>AutomaticSaveInterval</Name>
+        <Name>AutomaticSaveOption</Name>
+        <Name>AutomaticSavePrompt</Name>
+        <Name>DefaultSaveFormat</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Options\Scheduling</Path>
+        <Name>Auto Split Tasks</Name>
+        <Name>Default Duration Units</Name>
+        <Name>Default Task Type</Name>
+        <Name>Default Work Units</Name>
+        <Name>Edit with Auto Link</Name>
+        <Name>HonorConstraints</Name>
+        <Name>KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled</Name>
+        <Name>New Tasks Effort Driven</Name>
+        <Name>New Tasks Have Estimated Durations</Name>
+        <Name>New Tasks Start on Current Date</Name>
+        <Name>NewTasksAreManuallyScheduled</Name>
+        <Name>Schedule Messages</Name>
+        <Name>Show Assignment Units As a:</Name>
+        <Name>Show Estimated Durations</Name>
+        <Name>ShowTaskSuggestions</Name>
+        <Name>ShowTaskWarnings</Name>
+        <Name>UpdateManuallyScheduledTasksWhenEditingLinks</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Options\Spelling</Path>
+        <Name>Spelling Options</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Options\View</Path>
+        <Name>Apply 3D Look to Gantt bars and shapes</Name>
+        <Name>Automatically Add Items To The Global</Name>
+        <Name>Calendar Type</Name>
+        <Name>Date Format</Name>
+        <Name>Show Entry Bar</Name>
+        <Name>Show OLE Link Indicators</Name>
+        <Name>Show Project Summary</Name>
+        <Name>Show Scroll Bars</Name>
+        <Name>Show Status Bar</Name>
+        <Name>Show Windows In Taskbar</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Options\View\1033</Path>
+        <Name>Default View</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Recent File List</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\Settings</Path>
+        <Name>CacheSizePerProfile</Name>
+        <Name>DeveloperTools</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\MS Project\StatusData</Path>
+        <Name>AutoFilterMode</Name>
+        <Name>CalculateMode</Name>
+        <Name>CellMode</Name>
+        <Name>FilterMode</Name>
+        <Name>Macro</Name>
+        <Name>PreventOverallocation</Name>
+        <Name>RSVRollup</Name>
+        <Name>TaskMode</Name>
+        <Name>TaskModeBalloon</Name>
+        <Name>ViewShortcuts</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path Recursive="true">Microsoft\MS Project\14</Path>
+        <FileMask>*.mpt</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>MSProject.officeUI</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Publisher 2010 (64-bit)</Name>
+    <ID>Publisher</ID>
+    <Version>19</Version>
+    <Processes>
+      <Process>
+        <Filename>MSPUB.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\AutoCorrect</Path>
+        <Name>ACAddIACExcepts</Name>
+        <Name>Iac</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Internet</Path>
+        <Name>Encoding</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars\Publisher</Path>
+        <Name>AllowSelectionFloaties</Name>
+        <Name>QuickAccessToolbarStyle</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Publisher\DisabledAlerts</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Publisher\File MRU</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Publisher\Internet</Path>
+        <Name>EmailAsImg</Name>
+        <Name>IncrementalUpload</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Publisher\Preferences</Path>
+        <Name>AutoKeybd</Name>
+        <Name>AutoRecoverSave</Name>
+        <Name>AutoRecoverSaveInterval</Name>
+        <Name>AutoWordFormat</Name>
+        <Name>AutoWordSel</Name>
+        <Name>BackgroundSave</Name>
+        <Name>CapsLock</Name>
+        <Name>DefaultRTL</Name>
+        <Name>DefaultTextFlow</Name>
+        <Name>DefAutoHyph</Name>
+        <Name>DeveloperTools</Name>
+        <Name>EnableXPSPrintPathPrinting</Name>
+        <Name>HotZone</Name>
+        <Name>LivePreview</Name>
+        <Name>Measurements</Name>
+        <Name>NudgeAmt</Name>
+        <Name>OptionsDlgSizePos</Name>
+        <Name>PageCount</Name>
+        <Name>PageNavCompactMode</Name>
+        <Name>PerformEmDash</Name>
+        <Name>PromptToUpdateStyle</Name>
+        <Name>ShowMergeFieldUnderline</Name>
+        <Name>ShowObjectToolTips</Name>
+        <Name>ShowRulers</Name>
+        <Name>SmartQuotes</Name>
+        <Name>TextDragNDrop</Name>
+        <Name>UseFontLinking</Name>
+        <Name>UseLegacyDrag</Name>
+        <Name>UseNudgeAmount</Name>
+        <Name>UseStartupDlg</Name>
+        <Name>ViewMode</Name>
+        <Name>WindowSize</Name>
+        <Name>WindowWasMaximized</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Publisher\Recent Templates</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Publisher\Spelling</Path>
+        <Name>Background Spell Checking</Name>
+        <Name>SuggestFromUserDict</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Office</Path>
+        <Name>PublisherSpellingOptions</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Publisher</Path>
+        <FileMask>pubcmd14.dat</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>Publisher.officeUI</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft SharePoint Designer 2010 (64-bit)</Name>
+    <ID>SharePointDesigner</ID>
+    <Version>19</Version>
+    <Processes>
+      <Process>
+        <Filename>SPDESIGN.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\SharePoint Designer</Path>
+        <Name>AutoSave for Preview</Name>
+        <Name>Code View Options</Name>
+        <Name>DefaultProofLangId</Name>
+        <Name>DoNotCheckIfIsDefaultHTMLEditor</Name>
+        <Name>EditHtmlWithGeneratingEditor</Name>
+        <Name>Flags</Name>
+        <Name>FontFamilies</Name>
+        <Name>New Page Type</Name>
+        <Name>New WSS Page Type</Name>
+        <Name>Recent File List</Name>
+        <Name>Recent Page List</Name>
+        <Name>ShowAltTextPrompt</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\SharePoint Designer\AutoThumbnail</Path>
+        <Name>Border</Name>
+        <Name>BorderSize</Name>
+        <Name>Chisel</Name>
+        <Name>Size</Name>
+        <Name>Type</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\SharePoint Designer\Charsets</Path>
+      </Registry>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\14.0\SharePoint Designer\CSS</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\SharePoint Designer\CSS Preferences</Path>
+        <Name>Background</Name>
+        <Name>Borders and background</Name>
+        <Name>Bullets and numbering</Name>
+        <Name>Floating and positioning</Name>
+        <Name>Manual DTP</Name>
+        <Name>Margins and padding</Name>
+        <Name>Page</Name>
+        <Name>Reuse only generated CSS</Name>
+        <Name>Text</Name>
+        <Name>Use HTML attributes for images</Name>
+      </Registry>
+      <Registry>
+        <Path Recursive="true">Software\Microsoft\Office\14.0\SharePoint Designer\HTML</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\SharePoint Designer\HTML View</Path>
+        <Name>Insert Tabs As Spaces</Name>
+        <Name>Tab Size</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\SharePoint Designer\Preview in Browser</Path>
+        <Name>htmDefault</Name>
+        <Name>IExplore</Name>
+        <Name>Sizes</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\SharePoint Designer\Preview in Browser\BrowserMRU</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\SharePoint Designer\Restrictions</Path>
+        <Name>CSSSchemaPath</Name>
+        <Name>DefaultDoctype</Name>
+        <Name>HTMLSchemaPath</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\SharePoint Designer\Ruler And Grid</Path>
+        <Name>GridColor</Name>
+        <Name>GridLine</Name>
+        <Name>GridSpacing</Name>
+        <Name>Unit</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\SharePoint Designer\Settings</Path>
+        <Name>CSOptions</Name>
+        <Name>EnableLivePreview</Name>
+        <Name>OpenLastWeb</Name>
+        <Name>ShowCatalogLists</Name>
+        <Name>StatusBarEnabled</Name>
+        <Name>UseHttpCompression</Name>
+        <Name>WarnStaleIndex</Name>
+        <Name>WarnStalePageDepend</Name>
+        <Name>WebCacheEnabled</Name>
+        <Name>WebPrefetchEnabled</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\SharePoint Designer</Path>
+        <Name>QuickAccessToolbarStyle</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Office</Path>
+        <Name>SharePointDesignerSpellingOptions</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\SharePoint Designer\Snippets</Path>
+        <FileMask>SnippetsCustom.xml</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>spdesign.officeUI</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Visio 2010 (64-bit)</Name>
+    <ID>Visio</ID>
+    <Version>19</Version>
+    <Processes>
+      <Process>
+        <Filename>VISIO.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars\Visio</Path>
+        <Name>QuickAccessToolbarStyle</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Visio\Application</Path>
+        <Name>AllowShapeSplitting</Name>
+        <Name>AreaSelection</Name>
+        <Name>AutoRecovery</Name>
+        <Name>AutoRecoveryInterval</Name>
+        <Name>CubicTolerance</Name>
+        <Name>DeleteConnectorsEnabled</Name>
+        <Name>DeveloperTools</Name>
+        <Name>EnableAutoConnect</Name>
+        <Name>EventsEnabled</Name>
+        <Name>FileConversionLanguage</Name>
+        <Name>FileConversionMode</Name>
+        <Name>FindShapesAllWords</Name>
+        <Name>FindShapesGrouping</Name>
+        <Name>FindShapesRecycle</Name>
+        <Name>FindShapesWarn</Name>
+        <Name>FindShapesWarnNumber</Name>
+        <Name>FormulaAutoComplete</Name>
+        <Name>FramePosition</Name>
+        <Name>GreekTextSize</Name>
+        <Name>HandleBehavior</Name>
+        <Name>InkToolSpeed</Name>
+        <Name>LastFile1</Name>
+        <Name>LastFile10</Name>
+        <Name>LastFile11</Name>
+        <Name>LastFile12</Name>
+        <Name>LastFile2</Name>
+        <Name>LastFile3</Name>
+        <Name>LastFile4</Name>
+        <Name>LastFile5</Name>
+        <Name>LastFile6</Name>
+        <Name>LastFile7</Name>
+        <Name>LastFile8</Name>
+        <Name>LastFile9</Name>
+        <Name>LineTolerance</Name>
+        <Name>LiveMouseDynamics</Name>
+        <Name>LivePreview</Name>
+        <Name>LivePreviewMasters</Name>
+        <Name>MasterTextHeight</Name>
+        <Name>MasterTextWidth</Name>
+        <Name>MaxRecentFiles</Name>
+        <Name>MaxRecentTemplates</Name>
+        <Name>OfferMetricAndUS</Name>
+        <Name>OfficeCenterSizePos</Name>
+        <Name>PromptForSummaryInfo</Name>
+        <Name>PutAllInRegistry</Name>
+        <Name>SaveFileFormat</Name>
+        <Name>ShowMiniToolBar</Name>
+        <Name>ShowShapeSearchPane</Name>
+        <Name>ShowSmartTags</Name>
+        <Name>ShowTemplatePaneByDefault</Name>
+        <Name>ShowXMLOpenWarnings</Name>
+        <Name>ShowXMLSaveWarnings</Name>
+        <Name>TextAutoZoomFontSize</Name>
+        <Name>TipsDialogs</Name>
+        <Name>TipsDrawing</Name>
+        <Name>TipsRulers</Name>
+        <Name>TipsShapeSheet</Name>
+        <Name>TipsStencil</Name>
+        <Name>TransitionsEnabled</Name>
+        <Name>UseLocalDrafts</Name>
+        <Name>ZoomMode</Name>
+        <Name>ZoomOnRoll</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Visio\AutoFormat As You Type</Path>
+        <Name>Dashes</Name>
+        <Name>Fractions</Name>
+        <Name>Ordinals</Name>
+        <Name>SmartQuotes</Name>
+        <Name>Smileys</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Visio\Document</Path>
+        <Name>MaxUndo</Name>
+        <Name>MeasurementSystem_Angle</Name>
+        <Name>MeasurementSystem_Duration</Name>
+        <Name>MeasurementSystem_Text</Name>
+        <Name>RecycleShapeSheetWindow</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Visio\Recent Templates</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Visio\StatusBar</Path>
+        <Name>Angle</Name>
+        <Name>Height</Name>
+        <Name>Language</Name>
+        <Name>Length</Name>
+        <Name>MacroRecord</Name>
+        <Name>PageNumber</Name>
+        <Name>PanAndZoom</Name>
+        <Name>SwitchWindows</Name>
+        <Name>ViewShortcuts</Name>
+        <Name>Width</Name>
+        <Name>Zoom</Name>
+        <Name>ZoomSlider</Name>
+        <Name>ZoomToPage</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Office</Path>
+        <Name>VisioSpellingOptions</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Templates</Path>
+        <FileMask>*.vtx</FileMask>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>Visio.officeUI</FileMask>
+      </File>
+    </Settings>
+  </Application>
+  <Application>
+    <Name>Microsoft Word 2010 (64-bit)</Name>
+    <ID>Word</ID>
+    <Version>19</Version>
+    <Processes>
+      <Process>
+        <Filename>WINWORD.EXE</Filename>
+        <Architecture>Win64</Architecture>
+        <ProductVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </ProductVersion>
+        <FileVersion>
+          <Major Minimum="14" Maximum="14" />
+          <Minor Minimum="0" Maximum="0" />
+        </FileVersion>
+      </Process>
+    </Processes>
+    <Settings>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Internet</Path>
+        <Name>DoNotCheckIfWordIsDefaultHTMLEditor</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars\Settings</Path>
+        <Name>Microsoft Word</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Common\Toolbars\Word</Path>
+        <Name>AllowSelectionFloaties</Name>
+        <Name>QuickAccessToolbarStyle</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\PowerPoint\Internet</Path>
+        <Name>HTMLVersion</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Word\Data</Path>
+        <Name>Settings</Name>
+        <Name>Toolbars</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Word\File MRU</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Word\Internet</Path>
+        <Name>DoNotOptimizeForBrowser</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Word\Internet\Fonts</Path>
+      </Registry>
+      <Registry>
+        <Path>software\microsoft\office\14.0\word\options</Path>
+        <Name>AllowOpenInDraftView</Name>
+        <Name>AnimateScreenMove</Name>
+        <Name>AutoCreateCanvas</Name>
+        <Name>AutoGrammar</Name>
+        <Name>AutoSpell</Name>
+        <Name>AutoTextDelete</Name>
+        <Name>AutoWordSelect</Name>
+        <Name>BackgroundPrint</Name>
+        <Name>BackgroundSave</Name>
+        <Name>BackupDuringSave</Name>
+        <Name>ClickAndType</Name>
+        <Name>ConfirmFileConversion</Name>
+        <Name>CtrlClickHyperlink</Name>
+        <Name>CustomBottomMargin</Name>
+        <Name>CustomLeftMargin</Name>
+        <Name>CustomMarginMirrored</Name>
+        <Name>CustomRightMargin</Name>
+        <Name>CustomTopMargin</Name>
+        <Name>DefaultFormat</Name>
+        <Name>DeveloperTools</Name>
+        <Name>DontUpdateLinks</Name>
+        <Name>DraftFont</Name>
+        <Name>DragAndDropText</Name>
+        <Name>Factoid</Name>
+        <Name>HorizontalScrollbar</Name>
+        <Name>IacOn</Name>
+        <Name>InsertFloating</Name>
+        <Name>InsertForOvertype</Name>
+        <Name>InsForPaste</Name>
+        <Name>KeepUnsavedChanges</Name>
+        <Name>MapStdSizes</Name>
+        <Name>MarkFormatting</Name>
+        <Name>MeasurementUnits</Name>
+        <Name>NormalStyleForList</Name>
+        <Name>OptimizeCharForLayout</Name>
+        <Name>PixelsInDialogs</Name>
+        <Name>PlainTextAutoFormat</Name>
+        <Name>PromptSaveNormal</Name>
+        <Name>PromptUpdateStyle</Name>
+        <Name>Ruler</Name>
+        <Name>SelBar</Name>
+        <Name>ShowHighlight</Name>
+        <Name>ShowTextSfx</Name>
+        <Name>SmartCursoring</Name>
+        <Name>SmartParagraphSelect</Name>
+        <Name>TrackFormatting</Name>
+        <Name>VerticalRuler</Name>
+        <Name>VerticalScrollbar</Name>
+        <Name>WindowsInTaskbar</Name>
+        <Name>WrapToWwd</Name>
+        <Name>ZoomApp</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Word\Place MRU</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Word\Recent Templates</Path>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Office\14.0\Word\StatusBar</Path>
+        <Name>CapsLock</Name>
+        <Name>CoauthorCount</Name>
+        <Name>Column</Name>
+        <Name>DigitalSignatures</Name>
+        <Name>ExtendSelection</Name>
+        <Name>FormattedPage</Name>
+        <Name>InformationManagementPolicy</Name>
+        <Name>Language</Name>
+        <Name>Line</Name>
+        <Name>MacroRecord</Name>
+        <Name>Overtype</Name>
+        <Name>PageNumber</Name>
+        <Name>PermissionPolicy</Name>
+        <Name>Section</Name>
+        <Name>SpellCheck</Name>
+        <Name>TrackChanges</Name>
+        <Name>UpdatesAvailable</Name>
+        <Name>UploadStatus</Name>
+        <Name>VerticalPos</Name>
+        <Name>ViewShortcuts</Name>
+        <Name>WordCount</Name>
+        <Name>Zoom</Name>
+        <Name>ZoomSlider</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Panose</Path>
+        <Name>Andalus</Name>
+      </Registry>
+      <Registry>
+        <Path>Software\Microsoft\Shared Tools\Proofing Tools\1.0\Office</Path>
+        <Name>WordSpellingOptions</Name>
+      </Registry>
+      <File>
+        <Root>
+          <EnvironmentVariable>APPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Templates</Path>
+        <FileMask>*.dotm</FileMask>
+        <FileMask>*.dotx</FileMask>
+        <Exclude>
+          <FileMask>normalEmail.dotm</FileMask>
+        </Exclude>
+      </File>
+      <File>
+        <Root>
+          <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+        </Root>
+        <Path>Microsoft\Office</Path>
+        <FileMask>Word.officeUI</FileMask>
+        <FileMask>Word14.customUI</FileMask>
+      </File>
+    </Settings>
+  </Application>
+</SettingsLocationTemplate>

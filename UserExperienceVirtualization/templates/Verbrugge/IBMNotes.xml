@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2012/SettingsLocationTemplate">
+  <Name>IBM Notes</Name>
+  <ID>IBMNotes</ID>
+  <Version>9</Version>
+  <Author>
+    <Name>Michel Timmerman</Name>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>nlnotes.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>notes.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <Registry>
+      <Path>Software\Lotus\Notes</Path>
+    </Registry>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Lotus\Notes</Path>
+      <FileMask>notes.ini</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Lotus\Notes\Data</Path>
+      <FileMask>*</FileMask>
+	    <Exclude>
+        <FileMask>Cache.NDK</FileMask>
+		    <FileMask>perweb.nsf</FileMask>
+      </Exclude>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>

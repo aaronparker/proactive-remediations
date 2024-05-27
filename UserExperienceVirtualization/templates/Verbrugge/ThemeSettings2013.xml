@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Modifying the settings location templates for an application or a 
+Windows setting group provided with Microsoft User Experience Virtualization 
+may cause synchronization for the modified settings to fail. 
+For more information about settings location templates please see 
+the UE-V product documentation.  http://go.microsoft.com/fwlink/?LinkId=260889
+-->
+
+<SettingsLocationTemplate xmlns='http://schemas.microsoft.com/UserExperienceVirtualization/2013/SettingsLocationTemplate'>
+  <!-- Theme settings -->
+  <Name>Theme Settings</Name>
+  <ID>ThemeSettings</ID>
+  <LocalizedNames>
+    <Name Locale='en-us'>Theme Settings</Name>
+    <Name Locale='cs-cz'>Nastavení motivu</Name>
+    <Name Locale='da-dk'>Temaindstillinger</Name>
+    <Name Locale='de-de'>Designeinstellungen</Name>
+    <Name Locale='el-gr'>Ρυθμίσεις θέματος</Name>
+    <Name Locale='es-es'>configuración de temas</Name>
+    <Name Locale='fi-fi'>teeman asetukset</Name>
+    <Name Locale='fr-fr'>Paramètres de thème</Name>
+    <Name Locale='hu-hu'>Témák beállításai</Name>
+    <Name Locale='it-it'>Impostazioni del tema</Name>
+    <Name Locale='ja-jp'>テーマ設定</Name>
+    <Name Locale='ko-kr'>테마 설정</Name>
+    <Name Locale='nb-no'>Temainnstillinger</Name>
+    <Name Locale='nl-nl'>Thema-instellingen</Name>
+    <Name Locale='pl-pl'>Ustawienia kompozycji</Name>
+    <Name Locale='pt-br'>Configurações de Tema</Name>
+    <Name Locale='pt-pt'>Definições de Temas</Name>
+    <Name Locale='ru-ru'>Параметры темы</Name>
+    <Name Locale='sk-sk'>Nastavenie motívu</Name>
+    <Name Locale='sl-si'>Nastavitve teme</Name>
+    <Name Locale='sv-se'>Temainställningar</Name>
+    <Name Locale='tr-tr'>Tema Ayarları</Name>
+    <Name Locale='zh-cn'>主题设置</Name>
+    <Name Locale='zh-tw'>佈景主題設定</Name>
+  </LocalizedNames>
+  <Version>1</Version>
+  <DeferToMSAccount/>
+  <Processes>
+    <ShellProcess/>
+  </Processes>
+
+  <Settings>
+    <Asynchronous>true</Asynchronous>
+    <PreventOverlappingSynchronization>false</PreventOverlappingSynchronization>
+    <Registry>
+      <Path Recursive="false">Control Panel\Colors</Path>
+      <Name>Background</Name>
+    </Registry>
+    <Registry>
+      <Path Recursive="false">Control Panel\Desktop</Path>
+      <Name>WallpaperStyle</Name>
+      <Name>TileWallpaper</Name>
+    </Registry>    
+    <SystemParameter>DeskWallpaper</SystemParameter>
+    <SystemParameter>DesktopColor</SystemParameter>
+  </Settings>
+</SettingsLocationTemplate>

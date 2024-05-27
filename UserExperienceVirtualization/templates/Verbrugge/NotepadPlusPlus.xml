@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2012/SettingsLocationTemplate">
+  <Name>Notepad PlusPlus</Name>
+  <ID>NotepadPlusPlus</ID>
+  <Version>2</Version>
+  <Processes>
+    <Process>
+      <Filename>notepad++.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">Notepad++</Path>
+      <FileMask>*</FileMask>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>

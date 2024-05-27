@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Modifying the settings location templates for an application or a 
+Windows setting group provided with Microsoft User Experience Virtualization 
+may cause synchronization for the modified settings to fail. 
+For more information about settings location templates please see 
+the UE-V product documentation.  http://go.microsoft.com/fwlink/?LinkId=260889
+-->
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2012/SettingsLocationTemplate">
+  <Name>Microsoft Lync 2013 (64-bit)</Name>
+  <ID>MicrosoftLync2013Win64</ID>
+  <Version>1</Version>
+  <Processes>
+    <Process>
+      <Filename>lync.exe</Filename>
+      <Architecture>Win64</Architecture>
+      <ProductVersion>
+        <Major Minimum="15" Maximum="15" />
+        <Minor Minimum="0" Maximum="0" />
+      </ProductVersion>
+      <FileVersion>
+        <Major Minimum="15" Maximum="15" />
+        <Minor Minimum="0" Maximum="0" />
+      </FileVersion>
+    </Process>
+  </Processes>
+  <Settings>
+    <Registry>
+      <Path>Software\Microsoft\Office\15.0\Lync</Path>
+      <Name>CheckSpelling</Name>
+      <Name>ShowEmoticons</Name>
+      <Name>IsTabbedConversationWindowEnabled_1</Name>
+      <Name>IsOneLineTabList</Name>
+      <Name>IsConversationStatePreservationEnabled</Name>
+      <Name>TracingLevel</Name>
+      <Name>EnableEventLogging</Name>
+      <Name>MinimizeWindowToNotificationArea</Name>
+      <Name>AutoOpenMainWindowWhenStartup</Name>
+      <Name>ThirdPartyLocationAccessUser</Name>
+      <Name>ShowPhoto</Name>
+      <Name>TwoLineView</Name>
+      <Name>SortContactsByName</Name>
+      <Name>ShowContactFriendlyName</Name>
+      <Name>ShowContactStatus</Name>
+      <Name>ShowOnLineContactsOnly</Name>
+      <Name>ShowFavoriteContacts</Name>
+      <Name>IdleThreshold</Name>
+      <Name>AwayThreshold</Name>
+      <Name>EnableLyncSharingPresenting</Name>
+      <Name>DuplicatePrimaryMonitorPresentingSetting</Name>
+      <Name>EnableTTY</Name>
+      <Name>JoinAudioConferenceFrom</Name>
+      <Name>AllowOverridingDeviceAtJoinTime</Name>
+      <Name>playSoundFeedback</Name>
+      <Name>suspendSoundWhenConversationWindowInForeground</Name>
+      <Name>suspendSoundWhenBusy</Name>
+      <Name>suspendSoundWhenDND</Name>
+      <Name>ShowIMForLyncMeetings</Name>
+      <Name>ShowRosterForLyncMeetings</Name>
+    </Registry>
+    <Registry>
+      <Path>Software\Microsoft\Office\15.0\Common</Path>
+      <Name>QMEnable</Name>
+    </Registry>
+    <Registry>
+      <Path>Software\Microsoft\Windows\CurrentVersion\Run</Path>
+      <Name>Lync</Name>
+    </Registry>
+    <Registry>
+      <Path>Software\Microsoft\Office\15.0\Lync\Recording</Path>
+      <Name>PublishResolution</Name>
+    </Registry>
+  </Settings>
+</SettingsLocationTemplate>

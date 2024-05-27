@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2012/SettingsLocationTemplate">
+  <Name>Milestone XProtect Smart Client</Name>
+  <ID>MilestoneXProtectSmartClient</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>Michel Timmerman</Name>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>Client.exe</Filename>
+      <ProductName>VideoOS</ProductName>
+    </Process>
+  </Processes>
+  <Settings>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Milestone\Smart Client For Express And Professional</Path>
+      <FileMask>ApplicationSettings.xml</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Milestone\Smart Client For Express And Professional</Path>
+      <FileMask>MainForm_formpositioning.xml</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Milestone\Smart Client For Express And Professional</Path>
+      <FileMask>LoginHistory.xml</FileMask>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>

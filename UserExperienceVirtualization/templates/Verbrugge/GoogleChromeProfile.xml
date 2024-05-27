@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>Google Chrome Profile</Name>
+  <ID>GoogleChromeProfile</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>Michel Timmerman</Name>
+    <Email>michel.timmerman@verbrugge.nl</Email>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>chrome.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Google\Chrome\User Data\Default</Path>
+      <FileMask>profile.pb</FileMask>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Modifying the settings location templates for an application or a 
+Windows setting group provided with Microsoft User Experience Virtualization 
+may cause synchronization for the modified settings to fail. 
+For more information about settings location templates please see 
+the UE-V product documentation.  http://go.microsoft.com/fwlink/?LinkId=260889
+-->
+<SettingsLocationTemplate xmlns='http://schemas.microsoft.com/UserExperienceVirtualization/2012/SettingsLocationTemplate'>
+  <Name>Microsoft Notepad</Name>
+  <ID>MicrosoftNotepad6</ID>
+  <Version>1</Version>
+  <Processes>
+    <Process>
+      <Filename>NOTEPAD.EXE</Filename>
+      <ProductVersion>
+        <Major Minimum="6" Maximum="10" />
+      </ProductVersion>
+    </Process>
+  </Processes>
+  <Settings>
+    <Registry>
+      <Path>Software\Microsoft\Notepad</Path>
+    </Registry>
+  </Settings>
+</SettingsLocationTemplate>

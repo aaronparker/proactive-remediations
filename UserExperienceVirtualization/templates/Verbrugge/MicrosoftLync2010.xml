@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Modifying the settings location templates for an application or a 
+Windows setting group provided with Microsoft User Experience Virtualization 
+may cause synchronization for the modified settings to fail. 
+For more information about settings location templates please see 
+the UE-V product documentation.  http://go.microsoft.com/fwlink/?LinkId=260889
+-->
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2012/SettingsLocationTemplate">
+  <Name>Microsoft Lync 2010</Name>
+  <ID>MicrosoftLync2010</ID>
+  <Version>18</Version>
+  <Processes>
+    <Process>
+      <Filename>communicator.exe</Filename>
+      <ProductVersion>
+        <Major Minimum="4" Maximum="4" />
+        <Minor Minimum="0" Maximum="0" />
+      </ProductVersion>
+      <FileVersion>
+        <Major Minimum="4" Maximum="4" />
+        <Minor Minimum="0" Maximum="0" />
+      </FileVersion>
+    </Process>
+  </Processes>
+  <Settings>
+    <Registry>
+      <Path>AppEvents\Schemes\Apps\Communicator\COMMUNICATOR_incomingdelegatecall\.Current</Path>
+      <Name />
+    </Registry>
+    <Registry>
+      <Path>AppEvents\Schemes\Apps\Communicator\COMMUNICATOR_incomingresponsegroupcall\.Current</Path>
+      <Name />
+    </Registry>
+    <Registry>
+      <Path>AppEvents\Schemes\Apps\Communicator\COMMUNICATOR_incomingteamcall\.Current</Path>
+      <Name />
+    </Registry>
+    <Registry>
+      <Path>AppEvents\Schemes\Apps\Communicator\COMMUNICATOR_ringing\.Current</Path>
+      <Name />
+    </Registry>
+    <Registry>
+      <Path>Software\Microsoft\Communicator</Path>
+      <Name>AllowOverridingDeviceAtJoinTime</Name>
+      <Name>AlwaysOnTop</Name>
+      <Name>AlwaysShowCWMenu</Name>
+      <Name>AlwaysShowMenu</Name>
+      <Name>AutoOpenMainWindowWhenStartup</Name>
+      <Name>AutoRunWhenLogonToWindows</Name>
+      <Name>AwayThreshold</Name>
+      <Name>CEIP</Name>
+      <Name>CEIPEnabled</Name>
+      <Name>DefaultEnvironment</Name>
+      <Name>DialpadState</Name>
+      <Name>DisplayOption</Name>
+      <Name>EnableEventLogging</Name>
+      <Name>EnableTracing</Name>
+      <Name>EnableTTY</Name>
+      <Name>IdleThreshold</Name>
+      <Name>IM CharFormat</Name>
+      <Name>IMConvHistoryHeight</Name>
+      <Name>IMConvInputHeight</Name>
+      <Name>IMRosterHeight</Name>
+      <Name>IMWindowHeight</Name>
+      <Name>IMWindowMax</Name>
+      <Name>IMWindowRect</Name>
+      <Name>IMWindowWidth</Name>
+      <Name>InkMode</Name>
+      <Name>JoinAudioConferenceFrom</Name>
+      <Name>Language</Name>
+      <Name>MinimizeWindowToNotificationArea</Name>
+      <Name>OCTelephonyMode</Name>
+      <Name>PauseWMPWhenUsingPhone</Name>
+      <Name>PiPWindowAnchorPoint</Name>
+      <Name>PiPWindowHide</Name>
+      <Name>PiPWindowResized</Name>
+      <Name>playSoundFeedback</Name>
+      <Name>ShowColorBand</Name>
+      <Name>ShowEmoticons</Name>
+      <Name>ShowPhoto</Name>
+      <Name>suspendSoundWhenBusy</Name>
+      <Name>suspendSoundWhenConversationWindowInForeground</Name>
+      <Name>suspendSoundWhenDND</Name>
+      <Name>TabAreaHeight</Name>
+      <Name>ThirdPartyLocationAccessUser</Name>
+      <Name>WindowMax</Name>
+      <Name>WindowRect</Name>
+    </Registry>
+    <Registry>
+      <Path Recursive="true">Software\Microsoft\Communicator</Path>
+      <Name>Collapsed</Name>
+      <Name>ConvEnvGroupContactsBy</Name>
+      <Name>FeedEnvGroupContactsBy</Name>
+      <Name>GroupContactsBy</Name>
+      <Name>Index</Name>
+      <Name>Name</Name>
+      <Name>SortContactsByGroup</Name>
+      <Name>SortGroups</Name>
+      <Name>ShowDetail</Name>
+      <Name>ViewBy</Name>
+      <Name>ViewMFU</Name>
+    </Registry>
+    <Registry>
+      <Path>Software\Microsoft\UCCPlatform\Communicator</Path>
+      <Name>UnmuteSpeakerOnIncomingCall</Name>
+    </Registry>
+  </Settings>
+</SettingsLocationTemplate>
